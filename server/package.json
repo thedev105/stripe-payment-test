@@ -1,0 +1,19 @@
+{
+  "name": "bitcentral-test-server",
+  "version": "1.0.0",
+  "description": "Bitcentral test project server with Node.js",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Thomas Kim",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "stripe": "9.8.0"
+  }
+}

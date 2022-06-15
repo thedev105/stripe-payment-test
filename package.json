@@ -1,0 +1,24 @@
+{
+  "name": "bitcentral-test",
+  "version": "1.0.0",
+  "description": "Test project for Bitcentral",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server/server.js",
+    "client": "cd client && yarn start",
+    "start": "concurrently \"yarn client\" \"yarn server\"",
+    "postinstall": "(cd client && yarn install); (cd server && yarn install);",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Kim",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "7.2.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.16",
+    "stripe": "^9.8.0"
+  }
+}
