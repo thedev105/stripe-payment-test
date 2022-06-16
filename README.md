@@ -1,4 +1,4 @@
-# Bitcentral Test by Thomas
+# Bitcentral Test
 
 ## Installation
 
